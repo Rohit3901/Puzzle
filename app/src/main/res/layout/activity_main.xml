@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saketmayank.puzzle.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="207dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlepic"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/buttonowl1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/buttoncaterpillar"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttoncaterpillar"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonearth"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="17dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textAlignment="center"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonmonkey"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toStartOf="@+id/buttonkite" />
+
+        <Button
+            android:id="@+id/buttonant1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_marginEnd="38dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonant2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttoncaterpillar"
+            android:layout_alignBottom="@+id/buttoncaterpillar"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonkite"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="98dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonflower2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonearth"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonflour1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonowl1"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonflower3"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/buttonflour1"
+            android:layout_alignBottom="@+id/buttonflour1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="26dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonowl2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttoncaterpillar"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/buttonflower3"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonsun"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/buttonflower2"
+            android:layout_alignEnd="@+id/buttonant1"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonflower4"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttonflower2"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/buttonflower3"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttoncat1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/buttonkite"
+            android:layout_below="@+id/buttonflower3"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonslipper1"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/buttonslipper2"
+            android:layout_toStartOf="@+id/buttonant5"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonbook"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp"
+            android:layout_below="@+id/buttoncat1"
+            android:layout_alignEnd="@+id/buttonkite" />
+
+        <Button
+            android:id="@+id/buttonslipper2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/buttoncat1"
+            android:layout_toStartOf="@+id/buttonbook"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttoncat2"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/buttonsun"
+            android:layout_alignTop="@+id/buttonbook"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonant3"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/buttonslipper2"
+            android:layout_alignBottom="@+id/buttonslipper2"
+            android:layout_alignStart="@+id/buttonowl1"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonant4"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonbook"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonbutterfly"
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/buttonbook"
+            android:layout_toEndOf="@+id/buttonowl2"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonant5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/buttonbutterfly"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:text="*"
+            android:textColor="@android:color/transparent"
+            android:textSize="24sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/can"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:background="?attr/colorPrimaryDark"
+        android:elevation="14dp"
+        android:text="CAN YOU SPOT ?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/can"
+        android:layout_marginTop="5dp">
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/can"
+            android:divider="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:showDividers="end">
+
+            <RadioButton
+                android:id="@+id/ques1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Earth,Our Home" />
+
+            <RadioButton
+                android:id="@+id/ques2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The Sun that gives us warmth and light" />
+
+            <RadioButton
+                android:id="@+id/ques3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Two Swooping Owls" />
+
+            <RadioButton
+                android:id="@+id/ques4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="One shy monkey" />
+
+            <RadioButton
+                android:id="@+id/ques5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Five exploring ants" />
+
+            <RadioButton
+                android:id="@+id/ques6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A hungry catterpillar" />
+
+            <RadioButton
+                android:id="@+id/ques7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A butterfly wing" />
+
+            <RadioButton
+                android:id="@+id/ques8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Two cats waiting" />
+
+            <RadioButton
+                android:id="@+id/ques9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A pair of slippers" />
+
+            <RadioButton
+                android:id="@+id/ques10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Four red flowers" />
+
+            <RadioButton
+                android:id="@+id/ques11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A book" />
+
+            <RadioButton
+                android:id="@+id/ques12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A kite" />
+        </RadioGroup>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/can"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_toEndOf="@+id/can"
+        android:background="@color/colorPrimary"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

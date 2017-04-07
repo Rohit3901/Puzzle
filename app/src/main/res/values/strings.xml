@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Puzzle</string>
+    <string name = "howtoplay">1.Clues are given ,select the clue and find those in the picture above.\n\n
+                               2.If you want hint then select the clue and press hint .</string>
+</resources>
